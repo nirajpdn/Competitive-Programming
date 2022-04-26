@@ -1,5 +1,5 @@
-const longestWord = (str) => {
-  const words = str.split(" ");
+const LongestWord = (sen) => {
+  const words = sen.split(" ");
   let longest = "";
   words.forEach((word) => {
     if (cleanString(word)) {
@@ -21,4 +21,4 @@ const cleanString = (word) => {
   return word ? word.replace(/[^a-zA-Z0-9]/g, "") : undefined;
 };
 
-console.log(longestWord("This!!  is@55 an&& example of a** longest1 word"));
+console.log(LongestWord("This!!  is@55 an&& example of a** longest1 word")); // longest1
