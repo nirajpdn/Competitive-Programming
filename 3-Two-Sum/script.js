@@ -9,3 +9,5 @@ const TwoSum = (nums, target) => {
 };
 
 console.log(TwoSum([2, 7, 11, 15], 9)); // [0, 1]
+console.log(TwoSum([2, 5, 4, 15], 6)); // [0, 2]
+console.log(TwoSum([3, 4, 5, 15], 20)); // [2, 3]
