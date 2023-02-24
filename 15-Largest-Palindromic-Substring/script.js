@@ -4,8 +4,8 @@
  */
 const longestPalindrome = function (s) {
   let result = "",
-    resultLen = 0,
-    l;
+    resultLen = 0;
+
   const len = s.length;
   for (let i = 0; i < len; i++) {
     // Odd Substring Palindrome
@@ -37,4 +37,4 @@ const longestPalindrome = function (s) {
 console.log(longestPalindrome("carrace")); //carrac
 console.log(longestPalindrome("babad")); //bab
 
-// Time complexity: O(n)
+// Time complexity: O(n²)
